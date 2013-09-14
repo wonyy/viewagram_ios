@@ -1,0 +1,20 @@
+//
+// Prefix header for all source files of the 'viewagram' target in the 'viewagram' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "IGConnect.h"
+    #import "const.h"
+    #import "CUtils.h"
+    #import "DataKeeper.h"
+    #import "cocos2d.h"
+    #import "CacheManager.h"
+#endif
